@@ -2,18 +2,19 @@
 | HighPeaks | R Documentation |
 +-----------+-----------------+
 
-HighPeaks
----------
+Characteristics of Adirondack Hiking Trails
+-------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Adirondack High Peaks
+Data on hiking trails for each of the 46 "High Peaks" in the Adirondack
+mountains
 
 Format
 ~~~~~~
 
-A dataset with 46 observations on the following 6 variables.
+A data frame with 46 observations on the following 6 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Peak``                          | Name of the mountain              |
@@ -41,7 +42,7 @@ Forty-six mountains in the Adirondacks of upstate New York are known as
 the High Peaks with elevations near or above 4000 feet (although modern
 measurements show a couple of the peaks are actually slightly under 4000
 feet). A goal for hikers in the region is to become a "46er" by scaling
-each of these peaks. This dataset give infomation about the hiking
+each of these peaks. This dataset gives information about the hiking
 trails up each of these peaks.
 
 Source

@@ -2,8 +2,8 @@
 | USstamps | R Documentation |
 +----------+-----------------+
 
-USstamps
---------
+Price of US Stamps
+------------------
 
 Description
 ~~~~~~~~~~~

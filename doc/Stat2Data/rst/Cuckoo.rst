@@ -2,8 +2,8 @@
 | Cuckoo | R Documentation |
 +--------+-----------------+
 
-Cuckoo
-------
+Measurements of Cuckoo Eggs
+---------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Lengths of cuckoo eggs laid in other birds' nests
 Format
 ~~~~~~
 
-A dataset with 120 observations on the following 2 variables.
+A data frame with 120 observations on the following 2 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Bird``                          | Type of bird nest: ``mdw_pipit``  |
@@ -32,7 +32,7 @@ Details
 
 Cuckoos are knows to lay their eggs in the nests of other (host) birds.
 The eggs are then adopted and hatched by the host birds. The data give
-the lengths of cuckoo eggs found in nests of varous other bird species.
+the lengths of cuckoo eggs found in nests of various other bird species.
 
 Source
 ~~~~~~

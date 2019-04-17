@@ -2,18 +2,19 @@
 | HorsePrices | R Documentation |
 +-------------+-----------------+
 
-HorsePrices
------------
+Prices of Horses
+----------------
 
 Description
 ~~~~~~~~~~~
 
-HorsePrices
+Price and related characteristics of horses listed for sale on the
+internet
 
 Format
 ~~~~~~
 
-A dataset with 50 observations on the following 5 variables.
+A data frame with 50 observations on the following 5 variables.
 
 +-------------+--------------------------------+
 | ``HorseID`` | ID code for each horse         |
@@ -22,7 +23,7 @@ A dataset with 50 observations on the following 5 variables.
 +-------------+--------------------------------+
 | ``Age``     | Age of the horse (in years)    |
 +-------------+--------------------------------+
-| ``Height``  | Height fo the horse (in hands) |
+| ``Height``  | Height of the horse (in hands) |
 +-------------+--------------------------------+
 | ``Sex``     | ``f``\ =female ``m``\ =male    |
 +-------------+--------------------------------+

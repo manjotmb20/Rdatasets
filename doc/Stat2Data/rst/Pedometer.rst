@@ -2,8 +2,8 @@
 | Pedometer | R Documentation |
 +-----------+-----------------+
 
-Pedometer
----------
+Pedometer Walking Data
+----------------------
 
 Description
 ~~~~~~~~~~~

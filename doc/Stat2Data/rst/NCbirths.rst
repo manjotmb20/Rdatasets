@@ -2,8 +2,8 @@
 | NCbirths | R Documentation |
 +----------+-----------------+
 
-NCbirths
---------
+North Carolina Birth Records
+----------------------------
 
 Description
 ~~~~~~~~~~~

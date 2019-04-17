@@ -2,18 +2,19 @@
 | Hoops | R Documentation |
 +-------+-----------------+
 
-Hoops
------
+Grinnell College Basketball Games
+---------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Hoops
+Data from games played by the Grinnell College men's basketball team
+between 1997 and 2006
 
 Format
 ~~~~~~
 
-A dataset with 147 observations on the following 22 variables.
+A data frame with 147 observations on the following 22 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Game``                          | An ID number assigned to each     |

@@ -2,8 +2,8 @@
 | CrackerFiber | R Documentation |
 +--------------+-----------------+
 
-Cracker Fiber in Diets
-----------------------
+Effects of Cracker Fiber on Digested Calories
+---------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Digested calories with different types of fiber in crackers
 Format
 ~~~~~~
 
-A dataset with 48 observations on the following 3 variables.
+A data frame with 48 observations on the following 3 variables.
 
 +--------------+-------------------------------------------------------------+
 | ``Subj``     | ID for the subject                                          |
@@ -40,5 +40,4 @@ system.
 Source
 ~~~~~~
 
-Subset of the data at http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html,
-originally distributed with with the Data Desk software package.
+Subset of the data at http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html.

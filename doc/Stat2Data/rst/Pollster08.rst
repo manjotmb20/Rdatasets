@@ -2,8 +2,8 @@
 | Pollster08 | R Documentation |
 +------------+-----------------+
 
-Pollster08
-----------
+2008 U.S. Presidential Election Polls
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -34,7 +34,7 @@ A dataset with 102 observations on the following 11 variables.
 +-----------------------------------+-----------------------------------+
 | ``McCain``                        | Percent supporting John McCain    |
 +-----------------------------------+-----------------------------------+
-| ``Obama``                         | Percent supporting Barak Obama    |
+| ``Obama``                         | Percent supporting Barack Obama   |
 +-----------------------------------+-----------------------------------+
 | ``Margin``                        | Obama percent minus McCain        |
 |                                   | percent                           |
@@ -55,7 +55,7 @@ Details
 The file Pollster08 contains data from 102 polls that were taken during
 the 2008 U.S. Presidential campaign. These data include all presidential
 polls reported on the internet site pollster.com that were taken between
-August 29th, when John Mc- Cain announced that Sarah Palin would be his
+August 29th, when John McCain announced that Sarah Palin would be his
 running mate as the Republican nominee for vice president, and the end
 of September.
 

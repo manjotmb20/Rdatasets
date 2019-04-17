@@ -2,18 +2,18 @@
 | CalciumBP | R Documentation |
 +-----------+-----------------+
 
-CalciumBP
----------
+Do Calcium Supplements Lower Blood Pressure?
+--------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Calcium and blood pressure
+An experiment on calcium supplements and blood pressure in 21 men
 
 Format
 ~~~~~~
 
-A dataset with 21 observations on the following 2 variables.
+A data frame with 21 observations on the following 2 variables.
 
 +---------------+---------------------------------+
 | ``Treatment`` | ``Calcium`` or ``Placebo``      |

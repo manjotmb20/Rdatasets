@@ -2,8 +2,8 @@
 | FantasyBaseball | R Documentation |
 +-----------------+-----------------+
 
-FantasyBaseball
----------------
+Selection Times in a Fantasy Baseball Draft
+-------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Draft selection times for a fantasy baseball league
 Format
 ~~~~~~
 
-A dataset with 24 observations on the following 9 variables.
+A data frame with 24 observations on the following 9 variables.
 
 +-----------+----------------------------------+
 | ``Round`` | Round of the draft (1 to 24)     |
@@ -41,9 +41,9 @@ Details
 ~~~~~~~
 
 Time (in seconds) for participants in a draft for a fantasy baseball
-league to make a selectoion at each round.
+league to make a selection at each round.
 
 Source
 ~~~~~~
 
-Mathamatical Science Baseball League historical records (online).
+Mathematical Science Baseball League historical records (online).

@@ -2,18 +2,19 @@
 | BeeStings | R Documentation |
 +-----------+-----------------+
 
-BeeStings
----------
+Do Bee Stings Depend on Previous Stings?
+----------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Does number of beestings depend on previous stings?
+Data from an experiment to see it the number of bee stings depends on
+previous stings.
 
 Format
 ~~~~~~
 
-A dataset with 18 observations on the following 3 variables.
+A data frame with 18 observations on the following 3 variables.
 
 +---------------+------------------------+
 | ``Occasion``  | Trial: I to IX         |
@@ -34,10 +35,12 @@ to attack you? To test this hypothesis, scientists dangled a 4x4 array
 of 16 muslin-wrapped cotton balls over a beehive. Eight of 16 balls had
 been previously stung; the other eight were fresh. The response was the
 total number of new stingers left behind by the bees. The process was
-repeated for a total of nine tials.
+repeated for a total of nine trials.
+
+Used in first edition, but not second edition.
 
 Source
 ~~~~~~
 
 Free, J.B. (1961) "The stinging response of honeybees," Animal Behavior,
-vol. 9, pp 193-196.
+Vol. 9, pp 193-196.

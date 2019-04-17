@@ -2,18 +2,18 @@
 | Fluorescence | R Documentation |
 +--------------+-----------------+
 
-Fluorescence
-------------
+Measuring Calcium Binding to Proteins
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from an experiment on calcium binding proteins
+Data from an experiment on calcium binding to proteins
 
 Format
 ~~~~~~
 
-A dataset with 51 observations on the following 2 variables.
+A data frame with 51 observations on the following 2 variables.
 
 +-----------------+----------------------------------------+
 | ``Calcium``     | Log of free calcium concentration      |

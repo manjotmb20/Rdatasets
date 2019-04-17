@@ -2,21 +2,21 @@
 | Hawks | R Documentation |
 +-------+-----------------+
 
-Hawks
------
+Measurements on Three Hawk Species
+----------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data for a sample of hawks
+Data for a samples of hawks from three different species
 
 Format
 ~~~~~~
 
-A dataset with 908 observations on the following 19 variables.
+A data frame with 908 observations on the following 19 variables.
 
 +-----------------------------------+-----------------------------------+
-| ``Month``                         | code8=September to                |
+| ``Month``                         | ``8``\ =September to              |
 |                                   | ``12``\ =December                 |
 +-----------------------------------+-----------------------------------+
 | ``Day``                           | Date in the month                 |
@@ -54,7 +54,7 @@ A dataset with 908 observations on the following 19 variables.
 |                                   | the length of the tail (invented  |
 |                                   | at the MacBride Raptor Center)    |
 +-----------------------------------+-----------------------------------+
-| ``StandardTail``                  | Standared measurement of tail     |
+| ``StandardTail``                  | Standard measurement of tail      |
 |                                   | length (in mm)                    |
 +-----------------------------------+-----------------------------------+
 | ``Tarsus``                        | Length of the basic foot bone (in |
@@ -76,8 +76,8 @@ Details
 ~~~~~~~
 
 Students and faculty at Cornell College in Mount Vernon, Iowa, collected
-the data over many years at the hawk blind at Lake MacBride near Iowa
-City, Iowa. The data set that we are analyzing here is a subset of the
+data over many years at the hawk blind at Lake MacBride near Iowa City,
+Iowa. The data set that we are analyzing here is a subset of the
 original data set, using only those species for which there were more
 than 10 observations. Data were collected on random samples of three
 different species of hawks: Red-tailed, Sharp-shinned, and Cooper's

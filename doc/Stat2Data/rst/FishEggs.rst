@@ -2,18 +2,18 @@
 | FishEggs | R Documentation |
 +----------+-----------------+
 
-FishEggs
---------
+Fertility of Fish Eggs
+----------------------
 
 Description
 ~~~~~~~~~~~
 
-Fish Eggs
+Fertility measurement for eggs from a sample of 35 lake trout
 
 Format
 ~~~~~~
 
-A dataset with 35 observations on the following 4 variables.
+A data frame with 35 observations on the following 4 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Age``                           | Age of the fish (in years)        |
@@ -37,7 +37,7 @@ Details
 Researchers collected samples of female lake trout from Lake Ontario in
 September and November of 2002 through 2004. A goal of the study was to
 investigate the fertility of fish that had been stocked in the lake. One
-measure of the viability of fish eggs is percent dry mass(PctDM) which
+measure of the viability of fish eggs is percent dry mass (PctDM) which
 reflects the energy potential stored in the eggs by recording the
 percentage of the total egg material that is solid. Values of the PctDM
 for a sample of 35 lake trout (14 in September and 21 in November) are

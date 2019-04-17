@@ -2,8 +2,8 @@
 | WordMemory | R Documentation |
 +------------+-----------------+
 
-WordMemory
-----------
+Experiment on Word Memory
+-------------------------
 
 Description
 ~~~~~~~~~~~
@@ -39,6 +39,9 @@ like coffee, dog, kale, and tamborine easier than abstract words like
 beauty, sympathy, fauna, and guile? There were 25 words each of four
 kinds, obtained by crossing the two factors of interest, Abstraction
 (concrete or abstract) and Frequency (common or rare).
+
+This dataset appears in the first edition, but is not used in the second
+edition.
 
 Source
 ~~~~~~

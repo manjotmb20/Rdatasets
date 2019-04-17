@@ -2,8 +2,8 @@
 | Markets | R Documentation |
 +---------+-----------------+
 
-Markets
--------
+Daily Change in Dow Jones and Nikkei Stock Market Indices
+---------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -39,7 +39,9 @@ based in New York and the Nikkei 225 is a stock index in Japan.
 Source
 ~~~~~~
 
-Dow Jones Industrial Average:
-http://markets.cbsnews.com/cbsnews/quote/historical?Month=11&Symbol=310%3A998313&Year=2009&Range=12&tag=cbsnewsSectionsArea
-Historical Nikkei 225 index:
-http://markets.cbsnews.com/cbsnews/quote/historical?Month=11&Symbol=992%3A1900000035&Year=2009&Range=12&tag=cbsnewsSectionsArea
+| Dow Jones Industrial Average:
+| http://markets.cbsnews.com/cbsnews/quote/historical?
+| Month=11&Symbol=310%3A998313&Year=2009&Range=12&tag=cbsnewsSectionsArea
+| Historical Nikkei 225 index:
+| http://markets.cbsnews.com/cbsnews/quote/historical?
+| Month=11&Symbol=992%3A1900000035&Year=2009&Range=12&tag=cbsnewsSectionsArea

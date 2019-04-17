@@ -2,8 +2,8 @@
 | BaseballTimes | R Documentation |
 +---------------+-----------------+
 
-BaseballTimes
--------------
+Baseball Game Times of One Day in 2008
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,12 +13,12 @@ Game times and boxscore information for baseball games
 Format
 ~~~~~~
 
-A dataset with 15 observations on the following 7 variables.
+A data frame with 15 observations on the following 7 variables.
 
 +----------------+-------------------------------------------------------+
 | ``Game``       | Code for opposing teams                               |
 +----------------+-------------------------------------------------------+
-| ``League``     | ``AL``\ = American League or ``NL``\ =Mational League |
+| ``League``     | ``AL``\ = American League or ``NL``\ =National League |
 +----------------+-------------------------------------------------------+
 | ``Runs``       | Total number of runs scored (both teams)              |
 +----------------+-------------------------------------------------------+
@@ -36,8 +36,11 @@ A dataset with 15 observations on the following 7 variables.
 Details
 ~~~~~~~
 
-Data were collected for 15 Major Leage Baseball (MLB) games played on
+Data were collected for 15 Major League Baseball (MLB) games played on
 August 26, 2008.
+
+This dataset was used in first edition, but updated to BaseballTimes2017
+for the second edition.
 
 Source
 ~~~~~~

@@ -2,7 +2,7 @@
 | SATGPA | R Documentation |
 +--------+-----------------+
 
-SAT scores and GPA
+SAT Scores and GPA
 ------------------
 
 Description
@@ -37,8 +37,8 @@ scores on the Scholastic Aptitude Tests (SAT's) play in making decisions
 on which students to admit. Do SAT scores really help predict success in
 college? To investigate this question a group of 24 introductory
 statistics students supplied the data in this dataset showing their
-score on the Verbal portion of the SAT as well as their current grade
-point average (GPA) on a 0.0-4.0 scale.
+score on the Verbal and Math portions of the SAT as well as their
+current grade point average (GPA) on a 0.0-4.0 scale.
 
 Source
 ~~~~~~

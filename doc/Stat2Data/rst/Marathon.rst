@@ -2,8 +2,8 @@
 | Marathon | R Documentation |
 +----------+-----------------+
 
-Marathon
---------
+Daily Training for a Marathon Runner
+------------------------------------
 
 Description
 ~~~~~~~~~~~

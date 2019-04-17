@@ -122,8 +122,7 @@ Source
 ~~~~~~
 
 Lock, R. H. (1993) 1993 New Car Data. *Journal of Statistics Education*
-**1**\ (1).
-http://www.amstat.org/publications/jse/v1n1/datasets.lock.html.
+**1**\ (1). https://doi.org/10.1080/10691898.1993.11910459
 
 References
 ~~~~~~~~~~

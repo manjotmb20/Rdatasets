@@ -2,13 +2,14 @@
 | FinalFourIzzo | R Documentation |
 +---------------+-----------------+
 
-FinalFourIzzo
--------------
+NCAA Final Four by Seed and Tom Izzo (through 2010)
+---------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-NCAA Final Four by seed with indicator for Tom Izzo's teams
+NCAA Final Four by seed with indicator for Tom Izzo's teams from 1985 -
+2010.
 
 Format
 ~~~~~~
@@ -16,7 +17,7 @@ Format
 A dataset with 1664 observations on the following 4 variables.
 
 +------------+--------------------------------------------------------------+
-| ``Year``   | Year 1985-2010                                               |
+| ``Year``   | Year (1985 - 2010)                                           |
 +------------+--------------------------------------------------------------+
 | ``Seed``   | Seed in NCAA men's basketball tournament: 1 to 16            |
 +------------+--------------------------------------------------------------+
@@ -36,12 +37,14 @@ Within each region the teams are seeded from 1 to 16, with the
 (presumed) best team as the 1 seed and the (presumed) weakest team as
 the 16 seed; this practice of seeding teams began in 1979 for the NCAA
 tournament. Only one team from each region (so four teams each year)
-advances to the Final Four. This dataset if is the same as
-FinalFourLong, except the data starts in 1985 and we have a extra column
-that is an indicator for Michigan State teams coached by Tom Izzo.
+advances to the Final Four. This dataset is the same as FinalFourLong,
+except the data starts in 1985 and we have a extra column that is an
+indicator for Michigan State teams coached by Tom Izzo.
+
+Updated to FinalFourIzzo17 in second edition.
 
 Source
 ~~~~~~
 
-Final Four teams and their seed can be found at
-http://www.championshiphistory.com/ncaahoops.php.
+| Final Four teams and their seed can be found at
+| http://www.championshiphistory.com/ncaahoops.php.

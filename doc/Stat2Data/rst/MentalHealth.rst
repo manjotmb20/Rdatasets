@@ -18,7 +18,7 @@ A dataset with 36 observations on the following 3 variables.
 +-----------------------------------+-----------------------------------+
 | ``Month``                         | Month of the year                 |
 +-----------------------------------+-----------------------------------+
-| ``Moon``                          | Relatinship to full moon:         |
+| ``Moon``                          | Relationship to full moon:        |
 |                                   | ``After``, ``Before``, or         |
 |                                   | ``During``                        |
 +-----------------------------------+-----------------------------------+

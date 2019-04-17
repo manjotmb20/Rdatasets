@@ -2,8 +2,8 @@
 | FruitFlies | R Documentation |
 +------------+-----------------+
 
-FruitFlies
-----------
+Fruit Fly Sexual Activity and Longevity
+---------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Sexual activity and lifetimes of fruit flies
 Format
 ~~~~~~
 
-A dataset with 125 observations on the following 7 variables.
+A data frame with 125 observations on the following 7 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``ID``                            | a numeric vector                  |
@@ -52,14 +52,14 @@ the 125 to one of the following five groups.
 Source
 ~~~~~~
 
-The data are given as part of the data archive on the Journal of
-Statistics Education website and can be found on the page
-http://www.amstat.org/publications/jse/jse_data_archive.htm.
+| The data are given as part of the data archive on the Journal of
+  Statistics Education website and can be found on the page
+| http://www.amstat.org/publications/jse/jse_data_archive.htm.
 
 References
 ~~~~~~~~~~
 
-Hanley and Hapiro, "Sexual Activity and the Lifespan of Male Fruitflies:
-A Dataset That Gets Attention," Journal of Statistics Education v.2,
-n.1, (1994),
-http://www.amstat.org/publications/jse/v2n1/datasets.hanley.html
+| Hanley and Shapiro, (1994) "Sexual Activity and the Lifespan of Male
+  Fruitflies: A Dataset That Gets Attention," Journal of Statistics
+  Education v.2, n.1
+| http://www.amstat.org/publications/jse/v2n1/datasets.hanley.html

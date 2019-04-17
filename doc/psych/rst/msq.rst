@@ -394,6 +394,11 @@ Northwestern University.
 References
 ~~~~~~~~~~
 
+Larsen, R. J., & Diener, E. (1992). Promises and problems with the
+circumplex model of emotion. In M. S. Clark (Ed.), Review of personality
+and social psychology, No. 13. Emotion (pp. 25-59). Thousand Oaks, CA,
+US: Sage Publications, Inc.
+
 Rafaeli, Eshkol and Revelle, William (2006), A premature consensus: Are
 happiness and sadness truly opposite affects? Motivation and Emotion,
 30, 1, 1-12.
@@ -413,8 +418,10 @@ scales. Journal of Personality and Social Psychology, 54(6):1063-1070.
 See Also
 ~~~~~~~~
 
-``affect`` for an example of the use of some of these adjectives in a
-mood manipulation study.
+``msqR`` for a larger data set with repeated measures for 3032
+participants measured at least once, 2753 measured twice, 446 three
+times and 181 four times. ``affect`` for an example of the use of some
+of these adjectives in a mood manipulation study.
 
 ``make.keys``, ``scoreItems`` and ``scoreOverlap`` for instructions on
 how to score multiple scales with and without item overlap. Also see
@@ -436,7 +443,7 @@ Examples
    #The next 2 are classic positive and negative affect
    #The next 9 are circumplex scales
    #the last 7 are msq estimates of PANASX scales (missing some items)
-   keys <- make.keys(msq[1:75],list(
+   keys.list <- list(
    EA = c("active", "energetic", "vigorous", "wakeful", "wide.awake", "full.of.pep",
           "lively", "-sleepy", "-tired", "-drowsy"),
    TA =c("intense", "jittery", "fearful", "tense", "clutched.up", "-quiet", "-still", 
@@ -460,17 +467,18 @@ Examples
    Joviality =c("happy","delighted", "cheerful", "excited", "enthusiastic", "lively", "energetic"), 
    Self.Assurance=c( "proud","strong" , "confident" , "-fearful" ),
    Attentiveness = c("alert" , "determined" , "attentive" )
-   #acquiscence = c("sleepy" ,  "wakeful" ,  "relaxed","tense")
-      ))
+   #, acquiscence = c("sleepy" ,  "wakeful" ,  "relaxed","tense")   
+   #dropped because it has a negative alpha and throws warnings
+      )
           
-   msq.scores <- scoreItems(keys,msq[1:75])
+   msq.scores <- scoreItems(keys.list,msq)
 
    #show a circumplex structure for the non-overlapping items
    fcirc <- fa(msq.scores$scores[,5:12],2)  
    fa.plot(fcirc,labels=colnames(msq.scores$scores)[5:12])
 
    #now, find the correlations corrected for item overlap
-   msq.overlap <- scoreOverlap(keys,msq[1:75])
+   msq.overlap <- scoreOverlap(keys.list,msq)
    f2 <- fa(msq.overlap$cor,2)
    fa.plot(f2,labels=colnames(msq.overlap$cor),title="2 dimensions of affect, corrected for overlap")
    if(FALSE) {
@@ -480,7 +488,7 @@ Examples
 
    #show the 2 dimensional structure
    f2 <- fa(msq[1:72],2)
-   fa.plot(f2,labels=colnames(msq)[1:72],title="2 dimensions of affect at the item level")
+   fa.plot(f2,labels=colnames(msq)[1:72],title="2 dimensions of affect at the item level",cex=.5)
 
    #sort them by polar coordinates
    round(polar(f2),2)

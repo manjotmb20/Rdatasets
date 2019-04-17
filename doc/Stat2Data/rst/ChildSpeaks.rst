@@ -2,8 +2,8 @@
 | ChildSpeaks | R Documentation |
 +-------------+-----------------+
 
-ChildSpeaks
------------
+Age at First Speaking
+---------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Age at first speaking and aptitude test scores
 Format
 ~~~~~~
 
-A dataset with 21 observations on the following 3 variables.
+A data frame with 21 observations on the following 3 variables.
 
 +------------+-----------------------------------+
 | ``Child``  | ID for each child                 |

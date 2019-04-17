@@ -2,8 +2,8 @@
 | BritishUnions | R Documentation |
 +---------------+-----------------+
 
-BritishUnions
--------------
+Attitudes Towards British Trade Unions
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Poll attitudes towards British trade unions
 Format
 ~~~~~~
 
-A dataset with 17 observations on the following 7 variables.
+A data frame with 17 observations on the following 7 variables.
 
 +------------------+------------------------------------------------+
 | ``Date``         | Month of the poll ``Aug-77`` to ``Sep-79``     |

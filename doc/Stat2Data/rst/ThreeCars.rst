@@ -2,8 +2,8 @@
 | ThreeCars | R Documentation |
 +-----------+-----------------+
 
-Three Cars
-----------
+Prices of Three Used Car Models (2007)
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -42,8 +42,12 @@ Details
 Two students collected samples of Porsche, Jaguar, and BMW cars that
 were offered for sale at an internet site. In addition to asking price,
 they recorded the model year (converting to age) and mileage of each
-advertised car. The PorschePrice dataset has only the Porsche data and
-the PorscheJaguar dataset has the data for those two models.
+advertised car. The PorschePrice dataset (from the first edition) has
+only the Porsche data and the PorscheJaguar dataset has the data for
+those two models.
+
+This dataset has been updated (with different car models) to
+ThreeCars2017 for the second edition.
 
 Source
 ~~~~~~

@@ -2,8 +2,8 @@
 | Titanic | R Documentation |
 +---------+-----------------+
 
-Titanic
--------
+Passengers on the Titanic
+-------------------------
 
 Description
 ~~~~~~~~~~~

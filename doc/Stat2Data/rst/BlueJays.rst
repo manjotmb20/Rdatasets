@@ -2,8 +2,8 @@
 | BlueJays | R Documentation |
 +----------+-----------------+
 
-Blue Jays
----------
+Blue Jay Measurements
+---------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Body measurements for a sample of blue jays
 Format
 ~~~~~~
 
-A dataset with 123 observations on the following 9 variables.
+A data frame with 123 observations on the following 9 variables.
 
 +----------------+-------------------------------------------------------+
 | ``BirdID``     | ID tag for bird                                       |
@@ -30,7 +30,7 @@ A dataset with 123 observations on the following 9 variables.
 +----------------+-------------------------------------------------------+
 | ``Mass``       | Body mass (in grams)                                  |
 +----------------+-------------------------------------------------------+
-| ``Skull``      | Distance from base of bill to hack of skull (in mm)   |
+| ``Skull``      | Distance from base of bill to back of skull (in mm)   |
 +----------------+-------------------------------------------------------+
 | ``Sex``        | Sex coded as 0=female or 1=male                       |
 +----------------+-------------------------------------------------------+

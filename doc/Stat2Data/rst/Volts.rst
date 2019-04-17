@@ -2,8 +2,8 @@
 | Volts | R Documentation |
 +-------+-----------------+
 
-Volts
------
+Voltage Drop for a Discharging Capacitor
+----------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -28,7 +28,7 @@ Details
 
 A capacitor was charged with a nine-volt battery and then a voltmeter
 recorded the voltage as the capacitor was discharged. Measurements were
-taken every .02 seconds.
+taken every 0.02 seconds.
 
 Source
 ~~~~~~

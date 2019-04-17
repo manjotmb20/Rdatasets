@@ -2,8 +2,8 @@
 | Pulse | R Documentation |
 +-------+-----------------+
 
-Pulse
------
+Pulse Rates and Exercise
+------------------------
 
 Description
 ~~~~~~~~~~~
@@ -23,7 +23,7 @@ A dataset with 232 observations on the following 7 variables.
 +--------------+----------------------------------------------+
 | ``Smoke``    | ``1``\ =smoker or ``0``\ =nonsmoker          |
 +--------------+----------------------------------------------+
-| ``Gender``   | ``1``\ =female or ``0``\ =male               |
+| ``Sex``      | ``1``\ =female or ``0``\ =male               |
 +--------------+----------------------------------------------+
 | ``Exercise`` | Typical hours of exercise (per week)         |
 +--------------+----------------------------------------------+

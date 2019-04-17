@@ -2,8 +2,8 @@
 | LostLetter | R Documentation |
 +------------+-----------------+
 
-LostLetter
-----------
+Return Rates for "Lost" Letters
+-------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Which "lost" letters will be returned by the public?
 Format
 ~~~~~~
 
-A dataset with 140 observations on the following 8 variables.
+A data frame with 140 observations on the following 8 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Location``                      | Where letter was "lost":          |
@@ -21,7 +21,7 @@ A dataset with 140 observations on the following 8 variables.
 |                                   | ``GrinnellCampus``, or            |
 |                                   | ``GrinnellTown``                  |
 +-----------------------------------+-----------------------------------+
-| ``Address``                       | Address on teh letter:            |
+| ``Address``                       | Address on the letter:            |
 |                                   | ``Confederacy`` or ``Peaceworks`` |
 +-----------------------------------+-----------------------------------+
 | ``Returned``                      | ``1``\ =letter was returned or    |

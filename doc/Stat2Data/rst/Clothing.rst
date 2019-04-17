@@ -2,18 +2,18 @@
 | Clothing | R Documentation |
 +----------+-----------------+
 
-Clothing
---------
+Sales for a Clothing Retailer
+-----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Clothing retailer
+Data on 60 customers at a clothing retailer
 
 Format
 ~~~~~~
 
-A dataset with 60 observations on the following 8 variables.
+A data frame with 60 observations on the following 8 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``ID``                            | Case ID                           |
@@ -55,4 +55,5 @@ or more of the available explanatory variables.
 Source
 ~~~~~~
 
-Personal communication from clothing retailer David Cameron
+Personal communication with David Cameron who completed a more extensive
+consulting project for the retailer.

@@ -1,6 +1,6 @@
-+--------+-----------------+
-| solder | R Documentation |
-+--------+-----------------+
++----------------+-----------------+
+| solder.balance | R Documentation |
++----------------+-----------------+
 
 Soldering of Components on Printed-Circuit Boards
 -------------------------------------------------
@@ -8,9 +8,12 @@ Soldering of Components on Printed-Circuit Boards
 Description
 ~~~~~~~~~~~
 
-The ``solder`` data frame has 720 rows and 6 columns, representing a
-balanced subset of a designed experiment varying 5 factors on the
-soldering of components on printed-circuit boards.
+The ``solder.balance`` data frame has 720 rows and 6 columns,
+representing a balanced subset of a designed experiment varying 5
+factors on the soldering of components on printed-circuit boards.
+
+The ``solder`` data frame is the full version of the data with 900 rows.
+It is located in both the rpart and the survival packages.
 
 Usage
 ~~~~~
@@ -58,6 +61,6 @@ Examples
 ::
 
    fit <- rpart(skips ~ Opening + Solder + Mask + PadType + Panel,
-                data = solder, method = "anova")
+                data = solder.balance, method = "anova")
    summary(residuals(fit))
    plot(predict(fit), residuals(fit))

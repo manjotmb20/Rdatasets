@@ -16,17 +16,17 @@ Format
 
 A dataset with 16 observations on the following 4 variables.
 
-+--------------+----------------------------------------+
-| ``Game``     | Week number in the 2006 season         |
-+--------------+----------------------------------------+
-| ``Opponent`` | Name of opposing team                  |
-+--------------+----------------------------------------+
-| ``Attempts`` | Number of rushing attempts             |
-+--------------+----------------------------------------+
-| ``Yards``    | Total yards gamed rushing for the game |
-+--------------+----------------------------------------+
-|              |                                        |
-+--------------+----------------------------------------+
++--------------+-----------------------------------------+
+| ``Game``     | Week number in the 2006 season          |
++--------------+-----------------------------------------+
+| ``Opponent`` | Name of opposing team                   |
++--------------+-----------------------------------------+
+| ``Attempts`` | Number of rushing attempts              |
++--------------+-----------------------------------------+
+| ``Yards``    | Total yards gained rushing for the game |
++--------------+-----------------------------------------+
+|              |                                         |
++--------------+-----------------------------------------+
 
 Details
 ~~~~~~~
@@ -34,6 +34,9 @@ Details
 For each of the sixteen games the San Diego Chargers played in the 2006
 NFL regular season we have the number of times LaDainian Tomlinson ran
 the ball and the total yards he gained.
+
+This data set from the first edition was replaced by BreesPass in the
+second edition.
 
 Source
 ~~~~~~

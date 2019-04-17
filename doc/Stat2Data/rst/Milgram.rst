@@ -2,8 +2,8 @@
 | Milgram | R Documentation |
 +---------+-----------------+
 
-Milgram
--------
+Ethics and a Milgram Experiment
+-------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -38,24 +38,29 @@ Details
   Every one of his subjects ended up delivering what they thought was a
   dangerous 300-volt shock to a slow "learner" as punishment for
   repeated wrong answers.
+
 | Even though the "shocks" were not real and the "learner" was in on the
   secret, the results triggered a hot debate about ethics and
   experiments with human subjects. To study attitudes on this issue,
   Harvard graduate student Maryann de Mateo conducted a randomized
   comparative experiment. Her subjects were 37 high school teachers who
   did not know about the Milgram study. Using chance, Maryann assigned
-  each teacher to one of three treatment groups: Group 1: Actual
-  results. Each subject in this group read a description of Milgram's
-  study, including the actual results that every subject delivered the
-  highest possible "shock."
+  each teacher to one of three treatment groups:
+
+| Group 1: Actual results. Each subject in this group read a description
+  of Milgram's study, including the actual results that every subject
+  delivered the highest possible "shock."
+
 | Group 2: Many complied. Each subject read the same description given
   to the subjects in Group 1, except that the actual results were
   replaced by fake results, that many but not all subjects complied.
+
 | Group 3. Most refused. For subjects in this group, the fake results
   said that most subjects refused to comply.
-| After reading the description, each subject was asked to rate the
-  study according to how ethical they thought it was, from 1 (not at all
-  ethical) to 9 (completely ethical.)
+
+After reading the description, each subject was asked to rate the study
+according to how ethical they thought it was, from 1 (not at all
+ethical) to 9 (completely ethical.)
 
 Source
 ~~~~~~

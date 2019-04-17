@@ -2,13 +2,13 @@
 | InsuranceVote | R Documentation |
 +---------------+-----------------+
 
-InsuranceVote
--------------
+Congressional Votes on a Health Insurance Bill
+----------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Congressional votes
+Congressional votes on an ObamaCare health insurance bill in 2009
 
 Format
 ~~~~~~
@@ -16,7 +16,7 @@ Format
 A dataset with 435 observations on the following 9 variables.
 
 +-----------------------------------+-----------------------------------+
-| ``Party``                         | Party affilication:               |
+| ``Party``                         | Party affiliation:                |
 |                                   | ``D``\ =Democrat or               |
 |                                   | ``R``\ =Republican                |
 +-----------------------------------+-----------------------------------+
@@ -60,7 +60,7 @@ dataset contains data for each of the 435 representatives.
 Source
 ~~~~~~
 
-Insurance data are from the American Community Survey
-(http://www.census.gov/acs/www/data_documentation/data_main/). Roll call
-of congressional votes on this bill can be found at
-http://clerk.house.gov/evs/2009/roll887.xml.
+| Insurance data are from the American Community Survey
+| (http://www.census.gov/acs/www/data_documentation/data_main/). Roll
+  call of congressional votes on this bill can be found at
+| http://clerk.house.gov/evs/2009/roll887.xml.

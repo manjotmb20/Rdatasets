@@ -2,18 +2,18 @@
 | ICU | R Documentation |
 +-----+-----------------+
 
-ICU
----
+Intensive Care Unit Patients
+----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Patients at an Intensive Care Unit (ICU)
+Data for a sample of 200 patients at an Intensive Care Unit (ICU)
 
 Format
 ~~~~~~
 
-A dataset with 200 observations on the following 9 variables.
+A data frame with 200 observations on the following 9 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``ID``                            | Patient ID code                   |
@@ -35,7 +35,7 @@ A dataset with 200 observations on the following 9 variables.
 | ``SysBP``                         | Systolic blood pressure (in mm of |
 |                                   | Hg)                               |
 +-----------------------------------+-----------------------------------+
-| ``Pulse``                         | Hear rate4 (beats per minute)     |
+| ``Pulse``                         | Heart rate (beats per minute)     |
 +-----------------------------------+-----------------------------------+
 | ``Emergency``                     | ``1``\ =emergency admission or    |
 |                                   | ``0``\ =elective admission        |
@@ -56,5 +56,5 @@ died.
 Source
 ~~~~~~
 
-Data downladed from The Data and Story Library (DASL),
+Data downloaded from The Data and Story Library (DASL),
 http://lib.stat.cmu.edu/DASL/Datafiles/ICU.html.

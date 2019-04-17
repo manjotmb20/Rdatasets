@@ -2,8 +2,8 @@
 | WeightLossIncentive4 | R Documentation |
 +----------------------+-----------------+
 
-WeightLossIncentive4
---------------------
+Do Financial Incentives Improve Weight Loss? (4 Months)
+-------------------------------------------------------
 
 Description
 ~~~~~~~~~~~

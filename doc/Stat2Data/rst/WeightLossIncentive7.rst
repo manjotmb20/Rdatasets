@@ -2,8 +2,8 @@
 | WeightLossIncentive7 | R Documentation |
 +----------------------+-----------------+
 
-WeightLossIncentive7
---------------------
+Do Financial Incentives Improve Weight Loss? (7 Months)
+-------------------------------------------------------
 
 Description
 ~~~~~~~~~~~

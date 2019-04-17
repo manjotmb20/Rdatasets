@@ -2,8 +2,8 @@
 | YouthRisk2009 | R Documentation |
 +---------------+-----------------+
 
-YouthRisk2009
--------------
+Youth Risk Survey
+-----------------
 
 Description
 ~~~~~~~~~~~
@@ -15,36 +15,33 @@ Format
 
 A dataset with 500 observations on the following 6 variables.
 
-+-----------------------------------+-----------------------------------+
-| ``Sleep``                         | Average hours sleep on school     |
-|                                   | night, coded with                 |
-|                                   | ``10 or more hours``,             |
-|                                   | ``9 hours``,                      |
-+-----------------------------------+-----------------------------------+
-| ]tab ``8 hours``, ``7 hours``,    |                                   |
-| ``6 hours``, ``5 hours``, or      |                                   |
-| ``4 or less hours``               |                                   |
-+-----------------------------------+-----------------------------------+
-| ``Sleep7``                        | Seven or more hours of sleep?     |
-|                                   | 0=\ ``No``, 1=\ ``Yes``           |
-+-----------------------------------+-----------------------------------+
-| ``SmokeLife``                     | Ever smoked? ``No`` or ``Yes``    |
-+-----------------------------------+-----------------------------------+
-| ``SmokeDaily``                    | Regular smoker? ``No`` or ``Yes`` |
-+-----------------------------------+-----------------------------------+
-| ``MarijuaEver``                   | Ever smoked marijuana? 0=\ ``No`` |
-|                                   | or 1=\ ``Yes``                    |
-+-----------------------------------+-----------------------------------+
-| ``Age``                           | Age (in years)                    |
-+-----------------------------------+-----------------------------------+
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
+``Sleep``
+   Average hours sleep on school night (``10 or more hours``,
+   ``9 hours``, down to ``4 or less hours``)
+
+``Sleep7``
+   Seven or more hours of sleep? (``0``\ =no or ``1``\ =yes)
+
+``SmokeLife``
+   Ever smoked? (``No`` or ``Yes``)
+
+``SmokeDaily``
+   Regular smoker? (``No`` or ``Yes``)
+
+``MarijuaEver``
+   Ever smoked marijuana? (``0``\ =no or ``1``\ =yes)
+
+``Age``
+   Age (in years)
 
 Details
 ~~~~~~~
 
 Data from the Centers for Disease Control's Youth Risk Behavior
 Surveillance System (YRBSS).
+
+This data set is from the first edition, but not used in the second
+edition.
 
 Source
 ~~~~~~

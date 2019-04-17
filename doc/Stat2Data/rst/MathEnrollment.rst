@@ -2,8 +2,8 @@
 | MathEnrollment | R Documentation |
 +----------------+-----------------+
 
-Math Enrollments
-----------------
+Enrollments in Math Courses
+---------------------------
 
 Description
 ~~~~~~~~~~~
@@ -15,15 +15,15 @@ Format
 
 A dataset with 11 observations on the following 3 variables.
 
-+------------+----------------------------------+
-| ``Ayear``  | Academic year (for the fall)     |
-+------------+----------------------------------+
-| ``Fall``   | Fall semester total enrollments  |
-+------------+----------------------------------+
-| ``Spring`` | Spring semster total enrollments |
-+------------+----------------------------------+
-|            |                                  |
-+------------+----------------------------------+
++------------+-----------------------------------+
+| ``AYear``  | Academic year (for the fall)      |
++------------+-----------------------------------+
+| ``Fall``   | Fall semester total enrollments   |
++------------+-----------------------------------+
+| ``Spring`` | Spring semester total enrollments |
++------------+-----------------------------------+
+|            |                                   |
++------------+-----------------------------------+
 
 Details
 ~~~~~~~

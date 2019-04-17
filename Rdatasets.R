@@ -9,7 +9,7 @@ packages = c("boot", "car", "carData", "cluster", "COUNT", "DAAG", "datasets",
              "lattice", "lme4", "lmec", "MASS", "mediation", "mi", "mosaicData", 
              "multgee", "plm", "plyr", "pscl", "psych", "quantreg", "reshape2", 
              "robustbase", "rpart", "sandwich", "sem", "Stat2Data", "survival", 
-             "texmex", "vcd", "Zelig")
+             "texmex", "vcd", "Zelig", "purrr")
 p_load(char = packages)
 
 # Functions
@@ -78,19 +78,18 @@ for (i in 1:nrow(index)) {
 }
 
 # Index
-hasbeen = function(x) {
-    out = try(any(sapply(x, function(y) length(unique(na.omit(y))) == 2)), silent = TRUE)
-    if ('try-error' %in% class(out)) {
-        out = FALSE
-    } 
-    return(out)
+is.binary <- function(x) {
+    tryCatch(length(unique(na.omit(x))) == 2, 
+             error = function(e) FALSE, silent = TRUE)
 }
 index$Rows = sapply(data, nrow)
 index$Cols = sapply(data, ncol)
-index$has_logical = sapply(data, function(x) 'logical' %in% sapply(x, class))
-index$has_binary = sapply(data, hasbeen)
-index$has_numeric = sapply(data, function(x) 'numeric' %in% sapply(x, class))
-index$has_character = sapply(data, function(x) 'character' %in% sapply(x, class))
+index$n_binary <- sapply(data, function(x) sum(sapply(x, is.binary)))
+index$n_character <- sapply(data, function(x) sum(sapply(x, is.character)))
+index$n_factor <- sapply(data, function(x) sum(sapply(x, is.factor)))
+index$n_logical <- sapply(data, function(x) sum(sapply(x, is.logical)))
+index$n_numeric <- sapply(data, function(x) sum(sapply(x, is.numeric)))
+
 index$CSV = paste('https://raw.github.com/vincentarelbundock/Rdatasets/master/csv/',
                   index$Package, '/', index$Item, '.csv', sep='')
 index$Doc = paste('https://raw.github.com/vincentarelbundock/Rdatasets/master/doc/',
@@ -113,4 +112,3 @@ rss = '
 '
 cat(rss, file='datasets.html')
 HTML(index, file='datasets.html', row.names=FALSE, append=TRUE)
-

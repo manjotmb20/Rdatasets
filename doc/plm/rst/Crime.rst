@@ -101,6 +101,76 @@ mix
 pctymle
    percentage of young males (between ages 15 to 24)
 
+lcrmrte
+   log of crimes committed per person
+
+lprbarr
+   log of 'probability' of arrest
+
+lprbconv
+   log of 'probability' of conviction
+
+lprbpris
+   log of 'probability' of prison sentence
+
+lavgsen
+   log of average sentence, days
+
+lpolpc
+   log of police per capita
+
+ldensity
+   log of people per square mile
+
+ltaxpc
+   log of tax revenue per capita
+
+lpctmin
+   log of percentage minority in 1980
+
+lwcon
+   log of weekly wage in construction
+
+lwtuc
+   log of weekly wage in transportation, utilities, communications
+
+lwtrd
+   log of weekly wage in wholesale and retail trade
+
+lwfir
+   log of weekly wage in finance, insurance and real estate
+
+lwser
+   log of weekly wage in service industry
+
+lwmfg
+   log of weekly wage in manufacturing
+
+lwfed
+   log of weekly wage in federal government
+
+lwsta
+   log of weekly wage in state government
+
+lwloc
+   log of weekly wage in local government
+
+lmix
+   log of offence mix: face-to-face/other
+
+lpctymle
+   log of percentage of young males (between ages 15 to 24)
+
+Details
+~~~~~~~
+
+The variables l\* (lcrmrte, lprbarr, ...) contain the pre-computed
+logarithms of the base variables as found in the original data set. Note
+that these values slightly differ from what R's log() function yields
+for the base variables. In order to reproduce examples from the
+literature, the pre-computed logs need to be used, otherwise the results
+differ slightly.
+
 Source
 ~~~~~~
 

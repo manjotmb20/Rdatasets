@@ -2,8 +2,8 @@
 | Nursing | R Documentation |
 +---------+-----------------+
 
-Nursing
--------
+Nursing Homes
+-------------
 
 Description
 ~~~~~~~~~~~
@@ -25,7 +25,7 @@ A dataset with 52 observations on the following 7 variables.
 | ``AllPatientDays``                | Annual total patient days (in     |
 |                                   | hundreds)                         |
 +-----------------------------------+-----------------------------------+
-| ``PatientRevenue``                | Annual patinet care revenue (in   |
+| ``PatientRevenue``                | Annual patient care revenue (in   |
 |                                   | hundreds of dollars)              |
 +-----------------------------------+-----------------------------------+
 | ``NurseSalaries``                 | Annual nursing salaries (in       |

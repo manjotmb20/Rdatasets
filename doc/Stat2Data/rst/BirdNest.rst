@@ -2,18 +2,18 @@
 | BirdNest | R Documentation |
 +----------+-----------------+
 
-BirdNest
---------
+Nest Characteristics for Different Bird Species
+-----------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data on bird nests
+Nest and species characteristics for North American passerines
 
 Format
 ~~~~~~
 
-A dataset with 84 observations on the following 12 variables.
+A data frame with 84 observations on the following 12 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Species``                       | Latin species name                |
@@ -32,7 +32,8 @@ A dataset with 84 observations on the following 12 variables.
 +-----------------------------------+-----------------------------------+
 | ``No.eggs``                       | Number of eggs                    |
 +-----------------------------------+-----------------------------------+
-| ``Color``                         | a numeric vector                  |
+| ``Color``                         | Egg color (``0``\ =plain/solid or |
+|                                   | ``1``\ =speckled/spotted)         |
 +-----------------------------------+-----------------------------------+
 | ``Incubate``                      | Mean length of time (in days) the |
 |                                   | species incubates eggs in the     |
@@ -59,7 +60,7 @@ Details
 Amy R. Moore, as a student at Grinnell College in 1999, wanted to study
 the relationship between species characteristics and the type of nest a
 bird builds, using data collected from available sources. For the study,
-she collected data by species for 83 separate species of North American
+she collected data by species for 84 separate species of North American
 passerines.
 
 Source

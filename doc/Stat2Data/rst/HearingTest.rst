@@ -2,18 +2,18 @@
 | HearingTest | R Documentation |
 +-------------+-----------------+
 
-HearingTest
------------
+Correctly Identified Words in a Hearing Test
+--------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-HearingTest
+Percentaged of correctly identified words in a hearing test
 
 Format
 ~~~~~~
 
-A dataset with 96 observations on the following 3 variables.
+A data frame with 96 observations on the following 3 variables.
 
 +-------------+---------------------------------------------------+
 | ``Subj``    | Subject number (1 - 24)                           |

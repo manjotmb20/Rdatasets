@@ -2,13 +2,13 @@
 | FlightResponse | R Documentation |
 +----------------+-----------------+
 
-FlightResponse
---------------
+Response of Migratory Geese to Helicopter Overflights
+-----------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Flight Response of Pacific Brant
+Flight response of Pacific Brant to overflights of helicopters
 
 Format
 ~~~~~~

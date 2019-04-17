@@ -2,8 +2,8 @@
 | Orings | R Documentation |
 +--------+-----------------+
 
-Orings
-------
+Space Shuttle O-Rings
+---------------------
 
 Description
 ~~~~~~~~~~~
@@ -27,7 +27,7 @@ A dataset with 24 observations on the following 2 variables.
 Details
 ~~~~~~~
 
-The space shuttle Challenger explodes shortly after liftoff in 1987. The
+The space shuttle Challenger exploded shortly after liftoff in 1987. The
 subsequent investigation focused on the failure of O-ring seals, which
 allowed liquid hydrogen and oxygen to mix and explode. These failures
 might be related to temperature at the launch site which was near

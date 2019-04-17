@@ -2,13 +2,14 @@
 | AutoPollution | R Documentation |
 +---------------+-----------------+
 
-AutoPollution
--------------
+Noise Levels of Filters to Reduce Automobile Pollution
+------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-AutoPollution
+Measurements of noise levels for different filters to reduce pollution
+levels of automobiles.
 
 Format
 ~~~~~~
@@ -20,7 +21,7 @@ A dataset with 36 observations on the following 4 variables.
 +-----------+---------------------------------------------------------------+
 | ``Size``  | Vehicle size: ``1``\ =small, ``2``\ =medium, or ``3``\ =large |
 +-----------+---------------------------------------------------------------+
-| ``Type``  | ``1``\ =standard filer or ``2``\ =new filter                  |
+| ``Type``  | ``1``\ =standard filter or ``2``\ =new filter                 |
 +-----------+---------------------------------------------------------------+
 | ``Side``  | Side of vehicle: code1=right or ``2``\ =left                  |
 +-----------+---------------------------------------------------------------+

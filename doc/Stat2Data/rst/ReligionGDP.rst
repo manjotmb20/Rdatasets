@@ -2,8 +2,8 @@
 | ReligionGDP | R Documentation |
 +-------------+-----------------+
 
-ReligionGDP
------------
+Religion and GDP for Countries
+------------------------------
 
 Description
 ~~~~~~~~~~~

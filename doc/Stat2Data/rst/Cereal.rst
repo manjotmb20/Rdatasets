@@ -2,18 +2,19 @@
 | Cereal | R Documentation |
 +--------+-----------------+
 
-Cereal
-------
+Nutrition Content of Breakfast Cereals
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Breakfast cereals
+Nutrition content for a sample of 36 different brands of breakfast
+cereals
 
 Format
 ~~~~~~
 
-A dataset with 36 observations on the following 4 variables.
+A data frame with 36 observations on the following 4 variables.
 
 +--------------+----------------------------+
 | ``Cereal``   | Brandname of cereal        |

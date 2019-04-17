@@ -2,8 +2,8 @@
 | CancerSurvival | R Documentation |
 +----------------+-----------------+
 
-CancerSurvival
---------------
+Survival Times for Different Cancers
+------------------------------------
 
 Description
 ~~~~~~~~~~~

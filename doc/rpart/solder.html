@@ -3,15 +3,18 @@
 <link rel="stylesheet" type="text/css" href="R.css" />
 </head><body>
 
-<table width="100%" summary="page for solder"><tr><td>solder</td><td style="text-align: right;">R Documentation</td></tr></table>
+<table width="100%" summary="page for solder.balance"><tr><td>solder.balance</td><td style="text-align: right;">R Documentation</td></tr></table>
 
 <h2>Soldering of Components on Printed-Circuit Boards</h2>
 
 <h3>Description</h3>
 
-<p>The <code>solder</code> data frame has 720 rows and 6 columns, representing
+<p>The <code>solder.balance</code> data frame has 720 rows and 6 columns, representing
 a balanced subset of a designed experiment varying 5 factors on the
 soldering of components on printed-circuit boards.
+</p>
+<p>The <code>solder</code> data frame is the full version of the data with 900
+rows.  It is located in both the rpart and the survival packages.
 </p>
 
 
@@ -75,7 +78,7 @@ Pacific Grove, CA.
 
 <pre>
 fit &lt;- rpart(skips ~ Opening + Solder + Mask + PadType + Panel,
-             data = solder, method = "anova")
+             data = solder.balance, method = "anova")
 summary(residuals(fit))
 plot(predict(fit), residuals(fit))
 </pre>

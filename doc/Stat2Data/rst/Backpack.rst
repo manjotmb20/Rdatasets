@@ -2,8 +2,8 @@
 | Backpack | R Documentation |
 +----------+-----------------+
 
-Backpack
---------
+Weights of College Student Backpacks
+------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Backpack weights for a sample of college students
 Format
 ~~~~~~
 
-A dataset with 100 observations on the following 9 variables.
+A data frame with 100 observations on the following 9 variables.
 
 +--------------------+-------------------------------------------+
 | ``BackpackWeight`` | Backpack weight (in pounds)               |
@@ -22,7 +22,7 @@ A dataset with 100 observations on the following 9 variables.
 +--------------------+-------------------------------------------+
 | ``Ratio``          | BackpackWeight/BodyWeight                 |
 +--------------------+-------------------------------------------+
-| ``BackProblems``   | 0=no or 1=yes                             |
+| ``BackProblems``   | ``0``\ =no or ``1``\ =yes                 |
 +--------------------+-------------------------------------------+
 | ``Major``          | Code for academic major                   |
 +--------------------+-------------------------------------------+

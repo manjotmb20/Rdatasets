@@ -2,18 +2,18 @@
 | Kids198 | R Documentation |
 +---------+-----------------+
 
-Kids198
--------
+Body Measurements of Children
+-----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Measurements of Children
+Body measurements for a sample of 198 children
 
 Format
 ~~~~~~
 
-A dataset with 198 observations on the following 5 variables.
+A data frame with 198 observations on the following 5 variables.
 
 +------------+--------------------------------+
 | ``Height`` | Height (in inches)             |
@@ -35,7 +35,7 @@ Details
 This dataset comes from a 1977 anthropometric study of body measurements
 for children. Subjects in this sample are between the ages of 8 and 18
 years old, selected at random from the much larger dataset of the
-oringinal study.
+original study.
 
 Source
 ~~~~~~

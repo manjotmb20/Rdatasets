@@ -1,19 +1,19 @@
 +-------------+-----------------+
-| LeafHoppers | R Documentation |
+| Leafhoppers | R Documentation |
 +-------------+-----------------+
 
-LeafHoppers
------------
+Leafhopper Diet and Longevity
+-----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Lefetimes for potato leafhoppers on various sugar diets
+Lifetimes for potato leafhoppers on various sugar diets
 
 Format
 ~~~~~~
 
-A dataset with 8 observations on the following 2 variables.
+A data frame with 8 observations on the following 2 variables.
 
 +----------+----------------------------------------------------------+
 | ``Diet`` | ``Control``, ``Fructose``, ``Glucose``, or ``Sucrose``   |

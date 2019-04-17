@@ -221,6 +221,8 @@ screening participants for subsequent studies. The participants were
 enrolled in an introductory psychology class between Fall, 1991 and
 Spring, 1995.
 
+The actual items may be found in the ``epi.dictionary``.
+
 The structure of the E scale has been shown by Rocklin and Revelle
 (1981) to have two subcomponents, Impulsivity and Sociability. These
 were subsequently used by Revelle, Humphreys, Simon and Gilliland to

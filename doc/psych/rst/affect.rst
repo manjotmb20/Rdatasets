@@ -49,6 +49,9 @@ the PMC lab. In particular, Revelle and Anderson, 1997 and Rafaeli and
 Revelle (2006). An analysis of these data has also appeared in Smillie
 et al. (2012).
 
+For a much more complete data set involving film, caffeine, and time of
+day manipulations, see the ``msqR`` data set.
+
 Source
 ~~~~~~
 

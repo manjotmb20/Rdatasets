@@ -2,8 +2,8 @@
 | MedGPA | R Documentation |
 +--------+-----------------+
 
-MedGPA
-------
+GPA and Medical School Admission
+--------------------------------
 
 Description
 ~~~~~~~~~~~

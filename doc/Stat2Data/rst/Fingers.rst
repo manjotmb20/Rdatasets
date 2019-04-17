@@ -2,28 +2,28 @@
 | Fingers | R Documentation |
 +---------+-----------------+
 
-Fingers
--------
+Finger Tap Rates
+----------------
 
 Description
 ~~~~~~~~~~~
 
-Fingers
+Finger tap rates after drug administration
 
 Format
 ~~~~~~
 
-A dataset with 12 observations on the following 3 variables.
+A data frame with 12 observations on the following 4 variables.
 
-+-------------+-----------------------------------------------+
-| ``Subject`` | ``I``, ``II``, ``III``, or ``IV``             |
-+-------------+-----------------------------------------------+
-| ``Drug``    | ``Caffeine``, ``Placebo``, or ``Theobromine`` |
-+-------------+-----------------------------------------------+
-| ``TapRate`` | Finger taps in a fixed time interval          |
-+-------------+-----------------------------------------------+
-|             |                                               |
-+-------------+-----------------------------------------------+
+``Subject``
+   Subject code (``I``, ``II``, ``III``, or ``IV``)
+
+``Drug``
+   Drug administered (``Ca``\ =caffeine, ``Pl``\ =placebo, or
+   ``Th``\ =theobromine)
+
+``TapRate``
+   Finger taps in a fixed time interval
 
 Details
 ~~~~~~~
@@ -36,7 +36,9 @@ swallowed a tablet containing one of caffeine, theobromine, or the
 placebo. Two hours later they were timed while tapping a finger in a
 specified manner (that they had practiced earlier, to control for
 learning effects). The response is the number of taps in a fixed time
-interval
+interval.
+
+Renamed FranticFingers in second edition.
 
 Source
 ~~~~~~
@@ -44,10 +46,6 @@ Source
 The data was found in Statistics in Biology, Vol. 1, by C. I. Bliss
 (1967), New York: McGraw Hill.
 
-References
-~~~~~~~~~~
-
-1The original article is "Comparison of the action of 1-ethyl
-theobromine and caffeine in animals and man," by C. C. Scott and K. K.
-Chen, Journal of Pharmacological Experimental Therapy, v. 82 (1944), pp
-89-97.
+The original article is Scott, C. and Chen, K. (1944) "Comparison of the
+action of 1-ethyl theobromine and caffeine in animals and man," Journal
+of Pharmacological Experimental Therapy, v. 82, pp 89-97.

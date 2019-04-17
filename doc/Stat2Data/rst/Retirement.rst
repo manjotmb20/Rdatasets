@@ -2,8 +2,8 @@
 | Retirement | R Documentation |
 +------------+-----------------+
 
-Retirement
-----------
+Yearly Contributions to a Supplemental Retirement Account
+---------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -27,7 +27,7 @@ Details
 ~~~~~~~
 
 A faculty member opened a supplemental retirement account (SRA) in 1997
-to investment money for retirement. This dataset shows the annual
+to invest money for retirement. This dataset shows the annual
 contributions to that account. Annual contributions were adjusted
 downward during sabbatical years in order to maintain a steady family
 income.

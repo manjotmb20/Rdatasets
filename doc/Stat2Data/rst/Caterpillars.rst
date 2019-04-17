@@ -2,8 +2,8 @@
 | Caterpillars | R Documentation |
 +--------------+-----------------+
 
-Caterpillars
-------------
+Measurements of Manduca Sexta Caterpillars
+------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Measurements on a sample of Manduca Sexta caterpillars
 Format
 ~~~~~~
 
-A dataset with 267 observations on the following 18 variables.
+A data frame with 267 observations on the following 18 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Instar``                        | Coded from 1 (smallest) to 5      |

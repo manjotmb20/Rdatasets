@@ -2,8 +2,8 @@
 | TextPrices | R Documentation |
 +------------+-----------------+
 
-Text Prices
------------
+Textbook Prices
+---------------
 
 Description
 ~~~~~~~~~~~

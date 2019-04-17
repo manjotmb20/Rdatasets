@@ -2,8 +2,8 @@
 | NFL2007Standings | R Documentation |
 +------------------+-----------------+
 
-NFL2007Standings
-----------------
+NFL Standings for 2007 Regular Season
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -50,7 +50,9 @@ Details
 Data for all 32 National Football League (NFL) teams for the 2007
 regular season.
 
+Updated to NFLStandings2016 in the second edition.
+
 Source
 ~~~~~~
 
-1Data downloaded from www.nfl.com
+Data downloaded from www.nfl.com

@@ -2,13 +2,14 @@
 | TwinsLungs | R Documentation |
 +------------+-----------------+
 
-TwinsLungs
-----------
+Comparing Twins Ability to Clear Radioactive Particles
+------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Comparing lung function for twins between rural and urban environments
+Experiment comparing twins (one urban, one rural) ability to clear
+airborne radioactive particles from their lungs
 
 Format
 ~~~~~~
@@ -37,6 +38,8 @@ radioactivity immediately and then again after an hour, the scientists
 could measure the rate of “tracheobronchial clearance." The percentage
 of radioactivity remaining in the lungs after an hour told how quickly
 subjects' lungs cleared the inhaled particles.
+
+This dataset was renamed as RadioactiveTwins for the second edition.
 
 Source
 ~~~~~~

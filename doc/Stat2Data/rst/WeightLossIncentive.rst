@@ -2,8 +2,8 @@
 | WeightLossIncentive | R Documentation |
 +---------------------+-----------------+
 
-WeightLossIncentive
--------------------
+Do Financial Incentives Improve Weight Loss?
+--------------------------------------------
 
 Description
 ~~~~~~~~~~~

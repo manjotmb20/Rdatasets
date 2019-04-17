@@ -2,8 +2,8 @@
 | Putts2 | R Documentation |
 +--------+-----------------+
 
-Putts2
-------
+Putting Success by Length (Short Form)
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -33,9 +33,9 @@ Details
 A statistician golfer kept careful records of every putt he attempted
 when playing golf, recording the length of the putt and whether or not
 he was successful in making the putt. For each different length, this
-dataset records the number putts made, missed, and the total number of
-attempts from that length. A similar dataset, Putts1, has one case for
-each of the 587 attempted putts, showing the length and outcome.
+dataset records the number of putts made, missed, and the total number
+of attempts from that length. A similar dataset, Putts1, has one case
+for each of the 587 attempted putts, showing the length and outcome.
 
 Source
 ~~~~~~

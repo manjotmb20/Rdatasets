@@ -2,8 +2,8 @@
 | MathPlacement | R Documentation |
 +---------------+-----------------+
 
-Math Placement
---------------
+Math Placement Exam Results
+---------------------------
 
 Description
 ~~~~~~~~~~~
@@ -21,7 +21,7 @@ A dataset with 2696 observations on the following 16 variables.
 +-----------------------------------+-----------------------------------+
 | ``Gender``                        | 0=Female, 1=Male                  |
 +-----------------------------------+-----------------------------------+
-| ``PSATM``                         | PSAT score in MAth                |
+| ``PSATM``                         | PSAT score in Math                |
 +-----------------------------------+-----------------------------------+
 | ``SATM``                          | SAT score in Math                 |
 +-----------------------------------+-----------------------------------+

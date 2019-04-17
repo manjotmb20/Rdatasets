@@ -2,18 +2,18 @@
 | Day1Survey | R Documentation |
 +------------+-----------------+
 
-Day1Survey
-----------
+First Day Survey of Statistics Students
+---------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from a first day class survey
+Data from a first day class survey in an introductory statistics course
 
 Format
 ~~~~~~
 
-A dataset with 43 observations on the following 13 variables.
+A data frame with 43 observations on the following 13 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Section``                       | Section: ``1`` or ``2``           |
@@ -58,9 +58,9 @@ A dataset with 43 observations on the following 13 variables.
 Details
 ~~~~~~~
 
-An instructor at a small liberal arts college distributed the a data
-survey on the first day of class. The data for two different sections of
-the course are given in this dataset.
+An instructor at a small liberal arts college distributed a data survey
+on the first day of class. The data for two different sections of the
+course are given in this dataset.
 
 Source
 ~~~~~~

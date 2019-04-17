@@ -2,8 +2,8 @@
 | MetroHealth83 | R Documentation |
 +---------------+-----------------+
 
-MetroHealth83
--------------
+Health Services in Metropolitan Areas
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -23,7 +23,7 @@ A dataset with 83 observations on the following 16 variables.
 | ``RateMDs``                       | Number of physicians per 100,000  |
 |                                   | people                            |
 +-----------------------------------+-----------------------------------+
-| ``NumHospitals``                  | Nmber of community hospitals      |
+| ``NumHospitals``                  | Number of community hospitals     |
 +-----------------------------------+-----------------------------------+
 | ``NumBeds``                       | Number of hospital beds           |
 +-----------------------------------+-----------------------------------+
@@ -57,7 +57,7 @@ A dataset with 83 observations on the following 16 variables.
 |                                   | Income recipients per 100,000     |
 |                                   | people                            |
 +-----------------------------------+-----------------------------------+
-| ``SqrtMDs``                       | Square root of numver of          |
+| ``SqrtMDs``                       | Square root of number of          |
 |                                   | physicians                        |
 +-----------------------------------+-----------------------------------+
 |                                   |                                   |
@@ -66,10 +66,13 @@ A dataset with 83 observations on the following 16 variables.
 Details
 ~~~~~~~
 
-The U.S. Census Bureau regularly collects infomration for many
+The U.S. Census Bureau regularly collects information for many
 metropolitan areas in the United States, including data on number of
-phsycians and number (and size) of hospitals. This dataset has such
-information for 83 different metropolian areas.
+physicians and number (and size) of hospitals. This dataset has such
+information for 83 different metropolitan areas.
+
+This dataset is in the first edition, but replaced by CountyHealth in
+the second edition.
 
 Source
 ~~~~~~

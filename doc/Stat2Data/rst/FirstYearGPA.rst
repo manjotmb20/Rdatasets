@@ -2,8 +2,8 @@
 | FirstYearGPA | R Documentation |
 +--------------+-----------------+
 
-FirstYearGPA
-------------
+First Year GPA for College Students
+-----------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,13 +13,13 @@ Predicting first-year college GPA
 Format
 ~~~~~~
 
-A dataset with 219 observations on the following 10 variables.
+A data frame with 219 observations on the following 10 variables.
 
 +-----------------------------------+-----------------------------------+
-| ``GPA``                           | First-year college GPA on a       |
-|                                   | 0.0-4.0 scale                     |
+| ``GPA``                           | First-year college GPA on a 0.0   |
+|                                   | to 4.0 scale                      |
 +-----------------------------------+-----------------------------------+
-| ``HSGPA``                         | High school GPA on a 0.0-4.0      |
+| ``HSGPA``                         | High school GPA on a 0.0 to 4.0   |
 |                                   | scale                             |
 +-----------------------------------+-----------------------------------+
 | ``SATV``                          | Verbal/critical reading SAT score |

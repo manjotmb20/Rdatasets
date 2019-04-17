@@ -2,8 +2,8 @@
 | Putts1 | R Documentation |
 +--------+-----------------+
 
-Putts1
-------
+Putting Success by Length (Long Form)
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -16,7 +16,7 @@ Format
 A dataset with 587 observations on the following 2 variables.
 
 +------------+--------------------------------------------------+
-| ``Length`` | Length if the putt (in feet                      |
+| ``Length`` | Length of the putt (in feet)                     |
 +------------+--------------------------------------------------+
 | ``Made``   | ``1``\ =made the putt or ``0``\ =missed the putt |
 +------------+--------------------------------------------------+

@@ -2,13 +2,13 @@
 | SpeciesArea | R Documentation |
 +-------------+-----------------+
 
-Species Area
-------------
+Land Area and Mammal Species
+----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Land area and number of mammal species for island in Southeast Asia
+Land area and number of mammal species for islands in Southeast Asia
 
 Format
 ~~~~~~
@@ -40,5 +40,5 @@ predict the number of species given the size of an island.
 Source
 ~~~~~~
 
-Heaney, Lawrence R. (1984) Mammalian species richness on islands on the
-Sunda Shelf, Southeast Asia, Oecologia.
+Heaney, Lawrence R. (1984) "Mammalian species richness on islands on the
+Sunda Shelf, Southeast Asia," Oecologia, 61:11 17.

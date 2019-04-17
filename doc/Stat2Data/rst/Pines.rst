@@ -2,8 +2,8 @@
 | Pines | R Documentation |
 +-------+-----------------+
 
-Pines
------
+Measurements of Pine Tree Seedlings
+-----------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -65,8 +65,8 @@ A dataset with 1000 observations on the following 15 variables.
 Details
 ~~~~~~~
 
-This dataset contains information data from an experiment conducted by
-the Department of Biology at Kenyon College at a site near the campus in
+This dataset contains data from an experiment conducted by the
+Department of Biology at Kenyon College at a site near the campus in
 Gambier, Ohio. In April 1990, student and faculty volunteers planted
 1000 white pine (Pinus strobes) seedlings at the Brown Family
 Environmental Center. These seedlings were planted in two grids,

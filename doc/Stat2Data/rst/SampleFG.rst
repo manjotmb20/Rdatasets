@@ -2,8 +2,8 @@
 | SampleFG | R Documentation |
 +----------+-----------------+
 
-SampleFG
---------
+Field Goal Attempts in the NFL
+------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -28,7 +28,7 @@ A dataset with 30 observations on the following 13 variables.
 +----------------+------------------------------------------------+
 | ``Team``       | Abbreviation for team name                     |
 +----------------+------------------------------------------------+
-| ``Date``       | Code for date: mmdddyy                         |
+| ``Date``       | Code for date: mmddyy                          |
 +----------------+------------------------------------------------+
 | ``FGAttempts`` | Field goals attempted by the kicker that game  |
 +----------------+------------------------------------------------+

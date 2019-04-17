@@ -2,18 +2,19 @@
 | Blood1 | R Documentation |
 +--------+-----------------+
 
-Blood1
-------
+Blood Pressure, Weight, and Smoking Status
+------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Systolic blood pressure for a sample of 500 adults
+Systolic blood pressure, weight and smoking status for a sample of 500
+adults
 
 Format
 ~~~~~~
 
-A dataset with 500 observations on the following 3 variables.
+A data frame with 500 observations on the following 3 variables.
 
 +----------------+------------------------------------------------------+
 | ``SystolicBP`` | Systolic blood pressure (mm of Hg)                   |

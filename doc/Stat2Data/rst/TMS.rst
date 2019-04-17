@@ -2,8 +2,8 @@
 | TMS | R Documentation |
 +-----+-----------------+
 
-TMS
----
+Migraines and TMS
+-----------------
 
 Description
 ~~~~~~~~~~~
@@ -39,6 +39,8 @@ treatment from a device that did not deliver any stimulation. Subjects
 were instructed to apply the device at the onset of migraine symptoms
 and then assess how they felt two hours later. This dataset is a two-way
 table of the results.
+
+This dataset renamed as Migraines in second edition.
 
 Source
 ~~~~~~

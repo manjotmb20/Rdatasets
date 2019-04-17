@@ -116,5 +116,8 @@ Examples
    data(sapa.dictionary)
    bestScales(spi, criteria="health",dictionary=spi.dictionary)
 
-   sc <- scoreItems(spi.keys,spi)
-   corPlot(sc$corrected,numbers=TRUE,cex=.4,xlas=2,min.length=6)
+   sc <- scoreVeryFast(spi.keys,spi) #much faster scoring for just scores
+   sc <- scoreItems(spi.keys,spi)  #gives the alpha reliabilities and various stats 
+
+   corPlot(sc$corrected,numbers=TRUE,cex=.4,xlas=2,min.length=6,
+        main="Structure of SPI (disattenuated r above the diagonal)")

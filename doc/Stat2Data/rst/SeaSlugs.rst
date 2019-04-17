@@ -2,8 +2,8 @@
 | SeaSlugs | R Documentation |
 +----------+-----------------+
 
-Sea Slugs
----------
+Sea Slug Larvae
+---------------
 
 Description
 ~~~~~~~~~~~

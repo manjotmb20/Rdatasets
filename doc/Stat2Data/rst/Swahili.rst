@@ -2,8 +2,8 @@
 | Swahili | R Documentation |
 +---------+-----------------+
 
-Swahili
--------
+Attitudes Towards Swahili in Kenyan Schools
+-------------------------------------------
 
 Description
 ~~~~~~~~~~~

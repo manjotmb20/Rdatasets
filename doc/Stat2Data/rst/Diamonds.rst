@@ -2,23 +2,23 @@
 | Diamonds | R Documentation |
 +----------+-----------------+
 
-Diamonds
---------
+Characteristics of a Sample of Diamonds
+---------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Diamonds
+Price and characteristics for a sample of 351 diamonds
 
 Format
 ~~~~~~
 
-A dataset with 351 observations on the following 6 variables.
+A data frame with 351 observations on the following 6 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Carat``                         | Size of the diamond (in carats)   |
 +-----------------------------------+-----------------------------------+
-| ``Color``                         | Coded as ``D``\ (most             |
+| ``Color``                         | Coded as ``D`` (most              |
 |                                   | white/bright) through ``J``       |
 +-----------------------------------+-----------------------------------+
 | ``Clarity``                       | Coded as ``IF``, ``VVS1``,        |

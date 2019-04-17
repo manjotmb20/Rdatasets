@@ -2,8 +2,8 @@
 | Leukemia | R Documentation |
 +----------+-----------------+
 
-Leukemia
---------
+Responses to Treatment for Leukemia
+-----------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Treatment results for leukemia patients
 Format
 ~~~~~~
 
-A dataset with 51 observations on the following 9 variables.
+A data frame with 51 observations on the following 9 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Age``                           | Age at diagnosis (in years)       |
@@ -31,7 +31,7 @@ A dataset with 51 observations on the following 9 variables.
 +-----------------------------------+-----------------------------------+
 | ``Temp``                          | Highest temperature of the        |
 |                                   | patient prior to treatment, in    |
-|                                   | degrees Farenheit                 |
+|                                   | degrees Fahrenheit                |
 +-----------------------------------+-----------------------------------+
 | ``Resp``                          | ``1``\ =responded to treatment or |
 |                                   | ``0``\ =failed to respond         |

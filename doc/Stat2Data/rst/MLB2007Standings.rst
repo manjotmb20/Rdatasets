@@ -2,8 +2,8 @@
 | MLB2007Standings | R Documentation |
 +------------------+-----------------+
 
-MLB2007Standings
-----------------
+Standings and Team Statistics from the 2007 Baseball Season
+-----------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -40,7 +40,7 @@ A dataset with 30 observations on the following 21 variables.
 +-----------------+--------------------------------------------------------+
 | ``RBI``         | Number of runs batted in                               |
 +-----------------+--------------------------------------------------------+
-| ``SB``          | Number of stoen bases                                  |
+| ``SB``          | Number of stolen bases                                 |
 +-----------------+--------------------------------------------------------+
 | ``OBP``         | On base percentage                                     |
 +-----------------+--------------------------------------------------------+
@@ -54,7 +54,7 @@ A dataset with 30 observations on the following 21 variables.
 +-----------------+--------------------------------------------------------+
 | ``StrikeOuts``  | Number of strikeouts (by the team's pitchers)          |
 +-----------------+--------------------------------------------------------+
-| ``Saves``       | Number of games saved (by the team's pitchers          |
+| ``Saves``       | Number of games saved (by the team's pitchers)         |
 +-----------------+--------------------------------------------------------+
 | ``WHIP``        | Number of walks and hits per inning pitched            |
 +-----------------+--------------------------------------------------------+
@@ -67,6 +67,8 @@ Details
 Data for all 30 Major League Baseball (MLB) teams for the 2007 regular
 season. This includes team batting statistics (BattingAvg through SLG)
 and team pitching statistics (ERA through WHIP)
+
+Updated to MLBStandings2016 in second edition.
 
 Source
 ~~~~~~

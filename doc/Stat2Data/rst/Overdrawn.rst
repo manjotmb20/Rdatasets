@@ -2,13 +2,14 @@
 | Overdrawn | R Documentation |
 +-----------+-----------------+
 
-Overdrawn
----------
+Overdrawn Checking Account?
+---------------------------
 
 Description
 ~~~~~~~~~~~
 
-Overdrawn
+Survey of college students to took at factors related to having
+overdrawn a checking account.
 
 Format
 ~~~~~~
@@ -41,6 +42,8 @@ survey, but only four of these variables are included in this dataset.
 affect the analysis.) The primary interest for the researchers was
 factors relating to whether or not a student has ever overdrawn a
 checking account.
+
+Renamed as CreditRisk in second edition.
 
 Source
 ~~~~~~

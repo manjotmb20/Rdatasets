@@ -2,8 +2,8 @@
 | Political | R Documentation |
 +-----------+-----------------+
 
-Political
----------
+Political Behavior of College Students
+--------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -27,7 +27,7 @@ A dataset with 59 observations on the following 9 variables.
 |                                   | ``4``\ =voted                     |
 +-----------------------------------+-----------------------------------+
 | ``Paper``                         | Read news (per week):             |
-|                                   | ``0``\ =never, code1=less than    |
+|                                   | ``0``\ =never, ``1``\ =less than  |
 |                                   | once, ``2``\ =once, ``3``\ =2 or  |
 |                                   | 3 times, ``4``\ =daily            |
 +-----------------------------------+-----------------------------------+
@@ -35,7 +35,7 @@ A dataset with 59 observations on the following 9 variables.
 |                                   | or ``1``\ =yes                    |
 +-----------------------------------+-----------------------------------+
 | ``TV``                            | Watch TV news: ``0``\ =never,     |
-|                                   | code1=less than once,             |
+|                                   | ``1``\ =less than once,           |
 |                                   | ``2``\ =once, ``3``\ =2 or 3      |
 |                                   | times, ``4``\ =daily              |
 +-----------------------------------+-----------------------------------+

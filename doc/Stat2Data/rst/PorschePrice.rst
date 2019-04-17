@@ -2,8 +2,8 @@
 | PorschePrice | R Documentation |
 +--------------+-----------------+
 
-PorschePrice
-------------
+Porsche Prices
+--------------
 
 Description
 ~~~~~~~~~~~
@@ -28,10 +28,12 @@ A dataset with 30 observations on the following 3 variables.
 Details
 ~~~~~~~
 
-A student was interested in pries for used Porsche sports cars being
+A student was interested in prices for used Porsche sports cars being
 sold on the internet. He selected a random sample of 30 Porsches from
 the ones being advertised at autotrader.com. For each car he recorded
 the asking price, mileage, and model year (which he converted to age).
+
+This dataset was replaced by AccordPrice for second edition.
 
 Source
 ~~~~~~

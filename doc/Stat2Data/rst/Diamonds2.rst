@@ -2,23 +2,24 @@
 | Diamonds2 | R Documentation |
 +-----------+-----------------+
 
-Diamonds2
----------
+Characteristics of a Subset of the Diamond Sample
+-------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-A subset of the Diamonds data
+A subset of 307 cases with the most frequent colors from the Diamonds
+data
 
 Format
 ~~~~~~
 
-A dataset with 307 observations on the following 6 variables.
+A data frame with 307 observations on the following 6 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Carat``                         | Size of the diamond (in carats)   |
 +-----------------------------------+-----------------------------------+
-| ``Color``                         | Coded as ``D``\ (most             |
+| ``Color``                         | Coded as ``D`` (most              |
 |                                   | white/bright) through ``G``       |
 +-----------------------------------+-----------------------------------+
 | ``Clarity``                       | Coded as ``IF``, ``VVS1``,        |

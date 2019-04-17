@@ -2,7 +2,7 @@
 | cgd | R Documentation |
 +-----+-----------------+
 
-Chronic Granulotomous Disease data
+Chronic Granulotamous Disease data
 ----------------------------------
 
 Description

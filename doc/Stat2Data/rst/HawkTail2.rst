@@ -2,21 +2,19 @@
 | HawkTail2 | R Documentation |
 +-----------+-----------------+
 
-HawkTail2
----------
+Tail Lengths of Hawks (Unstacked)
+---------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Tail lengths for three hawk species
+Tail lengths for two hawk species
 
 Format
 ~~~~~~
 
-A dataset with observations on the following 3 variables.
+A data frame with observations on the following 2 variables.
 
-+-------------+---------------------------------------------------------+
-| ``Tail_CH`` | Tail length (in mm) for a sample of Cooper's hawks      |
 +-------------+---------------------------------------------------------+
 | ``Tail_RT`` | Tail length (in mm) for a sample of Red-tailed hawks    |
 +-------------+---------------------------------------------------------+
@@ -28,9 +26,9 @@ A dataset with observations on the following 3 variables.
 Details
 ~~~~~~~
 
-Tail lengths measured for a sample of 908 hawks observed in Mount
-Vernon, Iowa. Note: HawkTail has similar data in stacked format for just
-the Red-tailed and Sharp-shinned hawks.
+Tail lengths measured for a sample of hawks observed in Mount Vernon,
+Iowa. Note: HawkTail has similar data in stacked format. The Hawks
+dataset has more variables and a third species (Cooper's hawk).
 
 Source
 ~~~~~~

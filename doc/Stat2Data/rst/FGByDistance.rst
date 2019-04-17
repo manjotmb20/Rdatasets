@@ -2,18 +2,18 @@
 | FGByDistance | R Documentation |
 +--------------+-----------------+
 
-FGByDistance
-------------
+Results of NFL Field Goal Attempts
+----------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Field goal results in the NFL (by distance)
+Field goal results in the National Football League (NFL) by distance
 
 Format
 ~~~~~~
 
-A dataset with 51 observations on the following 7 variables.
+A data frame with 51 observations on the following 7 variables.
 
 +-----------------+----------------------------------------------+
 | ``Row``         | Case ID                                      |
@@ -22,7 +22,7 @@ A dataset with 51 observations on the following 7 variables.
 +-----------------+----------------------------------------------+
 | ``N``           | Number of kicks attempted from that distance |
 +-----------------+----------------------------------------------+
-| ``Makes``       | Nmber of kicks made from that distance       |
+| ``Makes``       | Number of kicks made from that distance      |
 +-----------------+----------------------------------------------+
 | ``PropMakes``   | Proportion of attempts made                  |
 +-----------------+----------------------------------------------+

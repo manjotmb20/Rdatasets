@@ -2,18 +2,19 @@
 | Jurors | R Documentation |
 +--------+-----------------+
 
-Jurors
-------
+Reporting Rates for Jurors
+--------------------------
 
 Description
 ~~~~~~~~~~~
 
-Jurors
+Reporting rates for bi-weekly jury pools in Franklin County Court
+(Columbus, OH).
 
 Format
 ~~~~~~
 
-A dataset with 52 observations on the following 4 variables.
+A data frame with 52 observations on the following 4 variables.
 
 +---------------+----------------------------------------------------+
 | ``Period``    | Sequential 2-week periods ove the course of a year |
@@ -39,7 +40,7 @@ obtain a sample of registered voters in Franklin County every two weeks,
 and these individuals are sent a summons to appear for jury duty. One of
 the most difficult aspects of Tom's job is to get those registered
 voters who receive a summons to actually appear at the courthouse for
-jury duty. This cataset contains the 1998 and 2000 data for the
+jury duty. This dataset contains the 1998 and 2000 data for the
 percentages of individuals who reported for jury duty after receiving a
 summons. The reporting dates vary slightly from year to year, so they
 are coded sequentially from 1, the first group to report in January, to

@@ -2,22 +2,22 @@
 | Grocery | R Documentation |
 +---------+-----------------+
 
-Grocery
--------
+Grocery Sales and Discounts
+---------------------------
 
 Description
 ~~~~~~~~~~~
 
-Grocery store sales
+Grocery store sales with different discounts
 
 Format
 ~~~~~~
 
-A dataset with 36 observations on the following 5 variables.
+A data frame with 36 observations on the following 5 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Discount``                      | Amount of discount: ``5.00%``,    |
-|                                   | ``10.00%`` or ``15.00%``          |
+|                                   | ``10.00%``, or ``15.00%``         |
 +-----------------------------------+-----------------------------------+
 | ``Store``                         | Store number (1-12)               |
 +-----------------------------------+-----------------------------------+

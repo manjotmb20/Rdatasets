@@ -2,8 +2,8 @@
 | PorscheJaguar | R Documentation |
 +---------------+-----------------+
 
-PorscheJaguar
--------------
+Porsche and Jaguar Prices
+-------------------------
 
 Description
 ~~~~~~~~~~~

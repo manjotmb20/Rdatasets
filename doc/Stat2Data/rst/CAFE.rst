@@ -2,8 +2,8 @@
 | CAFE | R Documentation |
 +------+-----------------+
 
-CAFE
-----
+US Senate Votes on Corporate Average Fuel Economy Bill
+------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Senate votes for Corporate Average Fuel Economy (CAFE) bill
 Format
 ~~~~~~
 
-A dataset with 100 observations on the following 7 variables.
+A data frame with 100 observations on the following 7 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Senator``                       | Senator's name                    |
@@ -30,7 +30,7 @@ A dataset with 100 observations on the following 7 variables.
 +-----------------------------------+-----------------------------------+
 | ``LogContr``                      | Log of (Contribution+1)           |
 +-----------------------------------+-----------------------------------+
-| ``Dem``                           | ``1``\ =Democrat/Indpendent       |
+| ``Dem``                           | ``1``\ =Democrat/Independent      |
 |                                   | ``0``\ =Republican                |
 +-----------------------------------+-----------------------------------+
 | ``Vote``                          | ``1``\ =yes or ``0``\ =no         |
@@ -41,7 +41,7 @@ A dataset with 100 observations on the following 7 variables.
 Details
 ~~~~~~~
 
-The Corporate Average Fuel Economy (CAFE) bill was proposed by Senators
+The Corporate Average Fuel Economy (CAFE) Bill was proposed by Senators
 John McCain and John Kerry to improve the fuel economy of cars and light
 trucks sold in the United States. However a critical vote on an
 amendment in March of 2002 threatened to indefinitely postpone CAFE. The
@@ -57,4 +57,4 @@ senators received over his or her lifetime from the car manufacturers.
 Source
 ~~~~~~
 
-Thanks to Prof. Scott Preston for the data.
+Thanks to Prof. Scott Preston from SUNY Oswego for the data.

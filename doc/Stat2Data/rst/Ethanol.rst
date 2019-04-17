@@ -2,18 +2,18 @@
 | Ethanol | R Documentation |
 +---------+-----------------+
 
-Ethanol
--------
+Effects of Oxygen on Sugar Metabolism
+-------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Ethanol
+Experiment on the effects of oxygen on sugar metabolism by bacteria
 
 Format
 ~~~~~~
 
-A dataset with 16 observations on the following 3 variables.
+A data frame with 16 observations on the following 3 variables.
 
 +-------------+---------------------------------------------+
 | ``Sugar``   | Type of sugar: ``Galactose`` or ``Glucose`` |
@@ -38,15 +38,15 @@ different sugars, glucose and galactose, by Streptococcus bacteria. In
 this case there were four levels of oxygen that were applied to the two
 kinds of sugar.
 
+Renamed to SugarEthanol in second edition.
+
 Source
 ~~~~~~
 
 Data are found in Statistics: The Exploration and Analysis of Data by
-Jay Devore and Roxy Peck (1960). St. Paul, MN: West.
+Jay Devore and Roxy Peck (2008). St. Paul, MN: West.
 
-References
-~~~~~~~~~~
-
-The original article is "Effects of oxygen concentration on pyruvate
-formatelyase in situ and sugar metabolism of Streptocucoccus mutans and
-Streptococcus samguis," Infection and Immunity, pp. 129-134.
+The original article is Yamada T., Takahashi-Abbe S., Abbe K. (1985)
+"Effects of oxygen concentration on pyruvate formatelyase in situ and
+sugar metabolism of Streptocucoccus mutans and Streptococcus samguis,"
+Infection and Immunity, pp. 129-134.

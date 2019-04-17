@@ -2,13 +2,13 @@
 | mgus2 | R Documentation |
 +-------+-----------------+
 
-Monoclonal gammapothy data
+Monoclonal gammopathy data
 --------------------------
 
 Description
 ~~~~~~~~~~~
 
-Natural history of 1341 sequential patients with monoclonal gammapothy
+Natural history of 1341 sequential patients with monoclonal gammopathy
 of undetermined significance (MGUS).
 
 Usage

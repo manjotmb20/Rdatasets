@@ -25,80 +25,80 @@ Format
 A data frame containing 6208 observations on 25 variables.
 
 company
-   factor. company names.
+   factor. Company names.
 
 sales
-   numeric. sales (in millions of dollars).
+   numeric. Sales (in millions of dollars).
 
 acompetition
-   numeric. constant inverse Lerner index.
+   numeric. Constant inverse Lerner index.
 
 competition
-   numeric. varying inverse Lerner index.
+   numeric. Varying inverse Lerner index.
 
 capital
-   numeric. net stock of property, plant, and equipment.
+   numeric. Net stock of property, plant, and equipment.
 
 cites
-   integer. future cite-weighted patents.
+   integer. Future cite-weighted patents.
 
 precites
-   numeric. presample average of cite-weighted patents.
+   numeric. Presample average of cite-weighted patents.
 
 dprecites
-   factor. indicates zero precites.
+   factor. Indicates zero precites.
 
 patents
-   integer. granted patents.
+   integer. Granted patents.
 
 drandd
-   factor. indicates a zero R&D stock.
+   factor. Indicates a zero R&D stock.
 
 randd
    numeric. R&D stock (in millions of dollars).
 
 employment
-   numeric. employment (in 1000s).
+   numeric. Employment (in 1000s).
 
 sp500
-   factor. membership of firms in the S&P500 index.
+   factor. Membership of firms in the S&P500 index.
 
 tobinq
    numeric. Tobin's q.
 
 value
-   numeric. stock market value.
+   numeric. Stock market value.
 
 institutions
-   numeric. proportion of stock owned by institutions.
+   numeric. Proportion of stock owned by institutions.
 
 industry
-   factor. four-digit industry code.
+   factor. Four-digit industry code.
 
 year
-   factor. estimation period.
+   factor. Estimation period.
 
 top1
-   numeric. share of the largest institution.
+   numeric. Share of the largest institution.
 
 quasiindexed
-   numeric. share of "quasi-indexed" institutional owners.
+   numeric. Share of "quasi-indexed" institutional owners.
 
 nonquasiindexed
-   numeric. share of "non-quasi-indexed" institutional owners.
+   numeric. Share of "non-quasi-indexed" institutional owners.
 
 transient
-   numeric. share of "transient" institutional owners.
+   numeric. Share of "transient" institutional owners.
 
 dedicated
-   numeric. share of "dedicated" institutional owners.
+   numeric. Share of "dedicated" institutional owners.
 
 competition4
-   numeric. varying inverse Lerner index in the firm's four-digit
+   numeric. Varying inverse Lerner index in the firm's four-digit
    industry.
 
 subsample
-   factor. subsample for the replication of columns 1–5 from Table 4 in
+   factor. Subsample for the replication of columns 1–5 from Table 4 in
    Aghion et al. (2013).
 
 Details
@@ -196,9 +196,9 @@ Examples
    tab_I_5_pois <- glm(f3, data = InstInnovation, family = poisson)
 
    ## one-way clustered covariances
-   vCL_I_3 <- vcovCL(tab_I_3_pois, cluster = InstInnovation$company)
-   vCL_I_4 <- vcovCL(tab_I_4_pois, cluster = InstInnovation$company)
-   vCL_I_5 <- vcovCL(tab_I_5_pois, cluster = InstInnovation$company)
+   vCL_I_3 <- vcovCL(tab_I_3_pois, cluster = ~ company)
+   vCL_I_4 <- vcovCL(tab_I_4_pois, cluster = ~ company)
+   vCL_I_5 <- vcovCL(tab_I_5_pois, cluster = ~ company)
 
    ## replication of columns 3 to 5 from Table I in Aghion et al. (2013)
    cbind(coef(tab_I_3_pois), sqrt(diag(vCL_I_3)))[2:4, ]

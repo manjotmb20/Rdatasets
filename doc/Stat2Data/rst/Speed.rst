@@ -2,8 +2,8 @@
 | Speed | R Documentation |
 +-------+-----------------+
 
-Speed
------
+Highway Fatality Rates (Yearly)
+-------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -16,11 +16,11 @@ Format
 A dataset with 21 observations on the following 3 variables.
 
 +-----------------------------------+-----------------------------------+
-| ``Year``                          | Year (1987-2007                   |
+| ``Year``                          | Year (1987-2007)                  |
 +-----------------------------------+-----------------------------------+
-| ``FatalityRate``                  | Number of fatalites on interstate |
-|                                   | highways (per 100 million         |
-|                                   | vehicle-miles)                    |
+| ``FatalityRate``                  | Number of fatalities on           |
+|                                   | interstate highways (per 100      |
+|                                   | million vehicle-miles)            |
 +-----------------------------------+-----------------------------------+
 | ``StateControl``                  | ``0``\ =1987-1994 or              |
 |                                   | ``1``\ =1995-2007                 |
@@ -40,5 +40,5 @@ before and after the states assumed control for highway speed limits.
 Source
 ~~~~~~
 
-Data from the National Highway Saftey Administration website at
-http://www-fars.nhtsa.dot.gov/Main/index.aspx
+| Data from the National Highway Safety Administration website at
+| http://www-fars.nhtsa.dot.gov/Main/index.aspx

@@ -13,7 +13,7 @@ Measurements for a sample of goldenrod galls
 Format
 ~~~~~~
 
-A dataset with 1055 observations on the following 9 variables.
+A data frame with 1055 observations on the following 9 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Gdiam03``                       | Gall diameter in 2003 (in mm)     |

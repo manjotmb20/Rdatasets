@@ -26,7 +26,7 @@ A dataset with 39 observations on the following 2 variables.
 Details
 ~~~~~~~
 
-Researchers were interested an association between body size and the
+Researchers were interested in an association between body size and the
 number of eggs produced by a species of moths.
 
 Source

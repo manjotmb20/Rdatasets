@@ -2,8 +2,8 @@
 | CloudSeeding2 | R Documentation |
 +---------------+-----------------+
 
-Cloud Seeding 2
----------------
+Cloud Seeding Experiment (Four Seasons)
+---------------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,12 +13,12 @@ Rainfall amounts from a cloud seeding experiment
 Format
 ~~~~~~
 
-A dataset with 108 observations on the following 8 variables.
+A data frame with 108 observations on the following 8 variables.
 
 +------------+------------------------------------------------------------+
 | ``Period`` | ID for time period                                         |
 +------------+------------------------------------------------------------+
-| ``Seeded`` | Treatment coded as ``S``\ =seded or ``U``\ =unseeded       |
+| ``Seeded`` | Treatment coded as ``S``\ =seeded or ``U``\ =unseeded      |
 +------------+------------------------------------------------------------+
 | ``Season`` | Coded as ``Autumn``, ``Spring``, ``Summer``, or ``Winter`` |
 +------------+------------------------------------------------------------+

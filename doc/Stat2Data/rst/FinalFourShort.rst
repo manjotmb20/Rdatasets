@@ -2,23 +2,24 @@
 | FinalFourShort | R Documentation |
 +----------------+-----------------+
 
-FinalFourShort
---------------
+CAA Final Four by Seed (Short Version through 2010)
+---------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-NCAA Final Four by seed - short version
+NCAA Final Four participation summarized each year by seed
 
 Format
 ~~~~~~
 
-A dataset with 512 observations on the following 4 variables.
+A data frame with 512 observations on the following 4 variables.
 
 +-----------------------------------+-----------------------------------+
-| ``Year``                          | Year: 1979 to 2010                |
+| ``Year``                          | Year (1979 - 2010)                |
 +-----------------------------------+-----------------------------------+
-| ``Seed``                          | Seed: 1 to 16                     |
+| ``Seed``                          | Seed in NCAA men's basketball     |
+|                                   | tournament: 1 to 16               |
 +-----------------------------------+-----------------------------------+
 | ``In``                            | Number of teams at that seed who  |
 |                                   | made the Final Four that year     |
@@ -43,8 +44,10 @@ advances to the Final Four. This dataset is similar to FinalFourLong,
 except that each row combines the count of the results (make/don't make
 the Final Four) for each seed, so that In+Out= 4 for each row.
 
+Updated to FinalFourShort17 in second edition.
+
 Source
 ~~~~~~
 
-Final Four teams and their seed can be found at
-http://www.championshiphistory.com/ncaahoops.php.
+| Final Four teams and their seed can be found at
+| http://www.championshiphistory.com/ncaahoops.php.

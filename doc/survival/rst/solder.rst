@@ -30,11 +30,11 @@ A data frame with 900 observations on the following 6 variables.
    the amount of clearance around the mounting pad (3 levels)
 
 ``Solder``
-   the amount of solder (2 levels)
+   the amount of solder (Thick or Thin)
 
 ``Mask``
-   type and thickness of the material used for the solder mask (5
-   levels)
+   type and thickness of the material used for the solder mask (A1.5,
+   A3, A6, B3, B6)
 
 ``PadType``
    the geometry and size of the mounting pad (10 levels)

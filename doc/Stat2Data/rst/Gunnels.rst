@@ -2,8 +2,8 @@
 | Gunnels | R Documentation |
 +---------+-----------------+
 
-Gunnels
--------
+Are Gunnels Present at Shoreline?
+---------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ Presence/absence of gunnels (eels) at shoreline quadrats
 Format
 ~~~~~~
 
-A dataset with 1592 observations on the following 10 variables.
+A data frame with 1592 observations on the following 10 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``Gunnel``                        | 1= gunnel present in the quadrat  |
@@ -29,8 +29,8 @@ A dataset with 1592 observations on the following 10 variables.
 | ``Rw``                            | Percentage cover in quadrat of    |
 |                                   | rockweed/algae/plants             |
 +-----------------------------------+-----------------------------------+
-| ``Amphiso``                       | Density of crustacean food 0=none |
-|                                   | to 4=high                         |
+| ``Amphiso``                       | Density of crustacean food:       |
+|                                   | 0=none to 4=high                  |
 +-----------------------------------+-----------------------------------+
 | ``Subst``                         | Substratum: 1=solid rock, 2=rocky |
 |                                   | cobbles, 3=mixed pebbles/sand,    |
@@ -62,7 +62,7 @@ A dataset with 1592 observations on the following 10 variables.
 Details
 ~~~~~~~
 
-This datset comes from a study on the habitat preferences of a species
+This dataset comes from a study on the habitat preferences of a species
 of eel, called a gunnel. Biologist Jake Shorty sampled quadrats along a
 coastline and recorded whether or not the species was found in the
 quadrat.

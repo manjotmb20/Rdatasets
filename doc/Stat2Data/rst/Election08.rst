@@ -2,8 +2,8 @@
 | Election08 | R Documentation |
 +------------+-----------------+
 
-Election08
-----------
+2008 U.S. Presidential Election
+-------------------------------
 
 Description
 ~~~~~~~~~~~
@@ -13,7 +13,7 @@ State-by-state information from the 2008 U.S. presidential election
 Format
 ~~~~~~
 
-A dataset with 51 observations on the following 7 variables.
+A dataframe with 51 observations on the following 7 variables.
 
 +-----------------------------------+-----------------------------------+
 | ``State``                         | Name of the state                 |
@@ -29,13 +29,13 @@ A dataset with 51 observations on the following 7 variables.
 | ``BA``                            | Percentage of adults with at      |
 |                                   | least a college education         |
 +-----------------------------------+-----------------------------------+
-| ``Dem.Rep``                       | Difference in                     |
-|                                   | %Democrat-%Republican (according  |
-|                                   | to 2008 Gallup survey)            |
+| ``Dem.Rep``                       | Difference in %Democrat and       |
+|                                   | %Republican (according to 2008    |
+|                                   | Gallup survey)                    |
 +-----------------------------------+-----------------------------------+
 | ``ObamaWin``                      | ``1``\ = Obama (Democrat) wins    |
 |                                   | state in 2008 or ``0``\ =McCain   |
-|                                   | (Republican wins)                 |
+|                                   | (Republican) wins                 |
 +-----------------------------------+-----------------------------------+
 |                                   |                                   |
 +-----------------------------------+-----------------------------------+
@@ -49,11 +49,11 @@ Columbia for the 2008 U.S. presidential election.
 Source
 ~~~~~~
 
-| State income data from: Census Bureau Table 659. Personal INcome Per
+| State income data from: Census Bureau Table 659. Personal Income Per
   Capita (in 2007)
 | High school data from: U.S. Census Bureau, 1990 Census of Population,
-  http://nces.ed.gov/programs/digest/d08/tables/dt08_011.asp
+| http://nces.ed.gov/programs/digest/d08/tables/dt08_011.asp
 | College data from: Census Bureau Table 225. Educational Attainment by
   State (in 2007)
-| % Democrat and % Republican:
-  http://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1
+| % Democrat and %Republican:
+| http://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1
